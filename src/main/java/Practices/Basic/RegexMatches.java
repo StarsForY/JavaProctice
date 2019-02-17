@@ -16,9 +16,7 @@ public class RegexMatches {
         // 现在创建 matcher 对象
         Matcher m = r.matcher(line);
         if (m.find( )) {
-            System.out.println("Found value: " + m.group(0) );
-            System.out.println("Found value: " + m.group(1) );
-            System.out.println("Found value: " + m.group(2) );
+            System.out.println("Found value: " + m.group());
         } else {
             System.out.println("NO MATCH");
         }
